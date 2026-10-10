@@ -1,0 +1,16 @@
+{
+  "name": "calculadora-poo",
+  "version": "1.0.0",
+  "description": "Calculadora CLI em TypeScript para praticar os conceitos de POO",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "start:build": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
